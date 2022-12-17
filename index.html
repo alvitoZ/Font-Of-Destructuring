@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* * {
+        border: 1px solid black;
+      } */
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="example">
+      <h1>h1 keknya</h1>
+      <h2>ini h2</h2>
+      <h3>ini h3 coy</h3>
+    </div>
+
+    <script src="./jquery.min.js"></script>
+    <script src="./plugin2.min.js"></script>
+    <script>
+      function example() {
+        $(".example").enter({
+          color: "yellow",
+          transform: "scale(1.1)",
+          display: "inline-block",
+          transition: "0.5s",
+          index: {
+            index: [7, 8, 10],
+            color: "orange",
+          },
+        });
+        $(".example").leave({
+          color: "",
+          transform: "",
+          display: "",
+          transition: "",
+          index: {
+            index: [7, 8, 10],
+            color: "red ",
+          },
+        });
+      }
+
+      example();
+    </script>
+  </body>
+</html>

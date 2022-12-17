@@ -1,0 +1,28 @@
+{
+  "name": "font-of-destructuring",
+  "version": "1.0.0",
+  "description": "Font-Of-Destructuring is a pure JavaScript or VanillaJS library built on TypeScript that can convert HTML tags to font with span.",
+  "main": "plugin2.js",
+  "scripts": {
+    "build": "minify plugin2.js > plugin2.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvitoZ/Font-Of-Destructuring.git"
+  },
+  "keywords": [
+    "Font-Of-Destructuring",
+    "vanillajs",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Alvito Zidane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvitoZ/Font-Of-Destructuring/issues"
+  },
+  "homepage": "https://github.com/alvitoZ/Font-Of-Destructuring#readme",
+  "dependencies": {
+    "minify": "^9.1.0"
+  }
+}
